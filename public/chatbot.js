@@ -27,7 +27,7 @@
 
   // Create iframe
   const iframe = document.createElement("iframe");
-  iframe.src = "http://localhost:5173"; // ✅ Correct URL
+  iframe.src = "https://chatbot-frontend-nine-dun.vercel.app"; // ✅ Correct URL
   Object.assign(iframe.style, {
     position: "fixed",
     bottom: "80px",
